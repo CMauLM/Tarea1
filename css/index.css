@@ -1,0 +1,159 @@
+.container {
+    display: grid;   
+  grid-template-columns: 80% 20%;
+  grid-template-rows: 10% 80% 10%;
+}
+.title {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    /*width: 300px;*/
+   
+    background-color: #0B0B61;
+    margin: 0;
+    
+}
+
+h1 {
+    margin: 0px;
+}
+
+
+.mainpart-text {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-column-start: 1;      
+    flex-wrap: wrap;
+    background-color:white;
+    display: inline-block;
+     margin: 0;
+}
+.flexbox{
+    grid-column-start: 2;
+    grid-row-start: 2;
+    flex-direction: column;
+    background-color: #BDBDBD;
+        align-items: flex-end;
+      padding: 5px;
+    height: 156px;
+    opacity: 0.5;
+    filter: alpha(opacity=50);
+  }
+.mainpart-text-p3 {
+   
+    flex-wrap: wrap;
+    background-color:black;
+    display: inline-block;
+    width: 80%;
+    margin: 0;
+ 
+}
+ .finalpart{
+    
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 3;
+    grid-row-start: 4;
+ }
+
+
+.flexbox-p3{
+  display: flex;
+  flex-direction: column;
+  background-color: #BDBDBD;
+  width: 18.5%;
+  align-items: flex-end;
+    padding: 5px;
+  height: 156px;
+  opacity: 0.5;
+  filter: alpha(opacity=50);
+}
+
+.box-title {
+    color: black;
+    border:transparent;
+    background-color: transparent;
+}
+
+.box {
+       width: 100%;
+    height: 50px;
+    border: 1px solid black; 
+    margin: 0;
+    color: white;
+}
+
+.mainpart {
+    display: grid;
+     grid-template-columns: 50% 50%;
+     grid-template-rows: 40 60%;
+    justify-content: space-between;
+    /* align-items: center;  */
+    font-family: 'Open Sans', sans-serif;
+}
+
+.center {
+    color: white;
+    padding: 15px; 
+   width: 100%;
+}
+strong {
+    font-weight: bold;
+}
+footer {
+   
+    background-color: #0B0B61 ;
+    margin: 0;
+    color: grey; 
+    height: 40px;
+}
+img{
+    display: inline-block;
+}
+
+.bigbh{
+    width: 400x;
+}
+
+.title {
+color: white; 
+}
+
+.sizeblackholes {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    font-family: 'Open Sans', sans-serif;
+}
+#imagen {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+   
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0px;
+}
+
+
+/* .principalimage {
+    display: flex;
+    align-content: flex-start;
+} */
+
+.titlep3 {
+    background-image: url("imagen/space.jpg")
+}
+
+.blackpage {
+    background-color: black;
+}
+
+.blackletter {
+    color: white;
+}
+
+.pimagen{
+    border: 3px solid black;
+}
